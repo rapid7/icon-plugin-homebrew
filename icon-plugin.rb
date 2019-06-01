@@ -2,9 +2,9 @@
 class IconPlugin < Formula
   desc "Tool for creating InsightConnect plugins from a spec file"
   homepage "https://rapid7.com"
-  url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v0.1.0/icon-plugin_0.1.0_Darwin_x86_64.tar.gz"
-  version "0.1.0"
-  sha256 "9036311da42d7f606f4ff3c686404d24c922a5e5e2d761bf39741d808338ca50"
+  url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v3.1.11/icon-plugin_3.1.11_Darwin_x86_64.tar.gz"
+  version "3.1.11"
+  sha256 "a9adeb0903b315bdef77403807576b7bfc7d6910dbc71266459c15485cde1012"
 
   def install
     bin.install "icon-plugin"
