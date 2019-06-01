@@ -4,7 +4,7 @@ class IconPlugin < Formula
   homepage "https://rapid7.com"
   url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v3.1.11/icon-plugin_3.1.11_Darwin_x86_64.tar.gz"
   version "3.1.11"
-  sha256 "a9adeb0903b315bdef77403807576b7bfc7d6910dbc71266459c15485cde1012"
+  sha256 "8a2a32d172f63deef934a69918ff865ede33f03322d71d11d7845deb77bf3377"
 
   def install
     bin.install "icon-plugin"
