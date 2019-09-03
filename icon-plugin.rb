@@ -7,11 +7,11 @@ class IconPlugin < Formula
 
   if OS.mac?
     url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v3.3.0/icon-plugin_3.3.0_Darwin_x86_64.tar.gz"
-    sha256 "c54ed5963b5038d013a03f5beb95140beb34d62758146c57673022e0da047da4"
+    sha256 "3a66e7b4848f26d49f6c4f0a167547121be94446c6522048579c8a046cd13096"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v3.3.0/icon-plugin_3.3.0_Linux_x86_64.tar.gz"
-      sha256 "8b6be2c2d4234e8262809e520dd5dd7f6354a36c9fb4bc0e8d0f5f99a6e93940"
+      sha256 "e0192dca33ff852b8c1d91e91906b3d86de22f5ff104269395d7e96f1880102b"
     end
   end
 
