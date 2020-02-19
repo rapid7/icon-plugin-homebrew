@@ -2,16 +2,16 @@
 class IconPlugin < Formula
   desc "Development tooling for InsightConnect plugins"
   homepage "https://rapid7.com"
-  version "4.2.2"
+  version "4.3.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v4.2.2/icon-plugin_4.2.2_Darwin_x86_64.tar.gz"
-    sha256 "ea2c978b944078466231aa4f0eb37ed904629366c0b67eefffb36c904337c2e7"
+    url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v4.3.0/icon-plugin_4.3.0_Darwin_x86_64.tar.gz"
+    sha256 "e4166792233595866d317ec061354f5766058040c5cf80f0c9ed1c5bbbc85617"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v4.2.2/icon-plugin_4.2.2_Linux_x86_64.tar.gz"
-      sha256 "51c8af06bda5148bf831ce13a2ae7cdd4890c8d45701eb7c965e68e7263128fe"
+      url "https://github.com/rapid7/icon-plugin-homebrew/releases/download/v4.3.0/icon-plugin_4.3.0_Linux_x86_64.tar.gz"
+      sha256 "9a3c02de550eda395898f1102b2087f04e39ddb03dcd18fed03b906095e63b1c"
     end
   end
 
