@@ -1,0 +1,15 @@
+---
+info:
+  title: Icon Plugin Homebrew
+  description: Homebrew Tap for icon-plugin. A tool for creating InsightConnect plugins
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/icon-plugin-homebrew
+  x-cortex-tag: icon-plugin-homebrew
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: soar
+openapi: 3.0.1
+servers:
+- url: "/"
